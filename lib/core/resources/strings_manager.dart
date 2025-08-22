@@ -8,4 +8,7 @@ class StringsManager {
   static const String onBoardingHeader2 = '\nMusic';
   static const String onBoardingSubtitle =
       'Find Your Latest Favourite Music\nFrom Our Collection';
+
+  // Home Screen
+  static const String searchTextFieldHintText = 'Search Song';
 }
