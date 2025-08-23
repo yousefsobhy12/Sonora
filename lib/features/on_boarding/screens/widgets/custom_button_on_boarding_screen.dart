@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sonora/core/resources/font_styles_manager.dart';
 import 'package:sonora/core/resources/routes_manager.dart';
 import '../../../../core/resources/strings_manager.dart';
 
@@ -24,12 +25,7 @@ class CustomButtonOnBoardingScreen extends StatelessWidget {
         ),
         child: Text(
           StringsManager.onBoardingButtonText,
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 18,
-            fontFamily: StringsManager.sonora,
-            fontWeight: FontWeight.w500,
-          ),
+          style: FontStylesManager.medium18,
         ),
       ),
     );

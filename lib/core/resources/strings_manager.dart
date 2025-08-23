@@ -11,4 +11,5 @@ class StringsManager {
 
   // Home Screen
   static const String searchTextFieldHintText = 'Search Song';
+  static const String recentlyPlayed = 'Recently Played';
 }

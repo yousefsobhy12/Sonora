@@ -12,4 +12,7 @@ class AssetsManager {
 
   // on boarding screen
   static const String guyListening = 'assets/images/guy_listening.png';
+
+  // Test
+  static const String test = 'assets/images/alan.png';
 }
